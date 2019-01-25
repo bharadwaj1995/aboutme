@@ -7,7 +7,7 @@
 
 ## About
 
-I use this page to put my assignment in cloud, where it is user friendly to clone the doe and push the code.
+I use this page to put my assignment in cloud, where it is user friendly to clone and push the code.
 
 ## Recommended Tools
 
