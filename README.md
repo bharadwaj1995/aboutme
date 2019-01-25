@@ -23,4 +23,4 @@ I use this page to put my assignment in cloud, where it is user friendly to clon
 ## Contributors
 
 I am Subrahmanya Sai Bharadwaj Gandrakota, and my major is Applied Computer Science.
-![Hosted image](https://github.com/bharadwaj1995/aboutme/blob/master/20190123_164843.jpg "recent pic draged concentration")
+![Hosted image](https://github.com/bharadwaj1995/aboutme/raw/master/20190123_164843.jpg "recent pic draged concentration")
