@@ -1,0 +1,57 @@
+.background {
+    
+    height: 100%;
+    position: relative;
+    opacity: 0.93;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.indexaside{
+    display:flex;
+}
+
+h1{
+    padding-top: 50px;
+}
+
+hr{
+    border: 2px solid;
+}
+
+#hrid{
+    padding-top: 100px;
+    border: 2px solid;
+}
+
+#section1{
+    margin: 1rem;
+    padding: 2rem;
+    background-color: black;
+    border-style: solid;
+    border-radius: 2em;
+    border-color: rgb(236, 229, 229);
+    color: white;
+
+}
+
+
+#section2{
+    margin: 1rem;
+    padding: 2rem;
+    background-color: black;
+    border-style: solid;
+    border-radius: 2em;
+    border-color: rgb(236, 229, 229);
+    color: white;
+
+}
+
+.container{
+    border-radius: 5px;
+    background-color: beige;
+    width: 70%;
+    height: 50px;
+}
