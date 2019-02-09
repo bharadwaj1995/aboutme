@@ -50,29 +50,27 @@
               </nav>
   
 </body>
-  <h1 class="h1-responsive font-weight-bold text-center my-4">Temperature converter</h1>
+  <h1 class="h1-responsive font-weight-bold text-center my-4">Temparature converter</h1>
   <h2 class="h2-responsive font-weight-bold text-center my-4">
         <section class="col-md-8">
-                <script type="text/javascript">
-                    function checkPalindrome() {
-                    var revStr = "";
-                    var str = document.getElementById("str").value;
-                    var i = str.length;
-                    for(var j=i; j>=0; j--) {
-                    revStr = revStr+str.charAt(j);
-                    }
-                    if(str == revStr) {
-                    alert(str+" -is Palindrome");
-                    } else {
-                    alert(str+" -is not a Palindrome");
-                    }
-                    }
-                    </script>
-        
-                    <form >
-            Enter a String/Number: <input type="text" id="str" name="string" /><br />
-            <input type="submit" value="GO" onclick="checkPalindrome();"/>
-            </form>
+        <script type="text/javascript">
+            function cconverttemp() {
+            
+            var result = parseInt(document.getElementById("str").value);
+            
+            
+
+            alert( "farenheat Temparature is " + (result + 30) );
+            
+            
+            }
+            </script>
+
+            <form >
+    enter the string number to convert farenheat  : <input type="text" id="str" name="string" /><br />
+    <input type="submit" value="GO" onclick="cconverttemp();"/>
+    </form>
+    </section>
   </h2>
   <br>
   <footer class="main-footer">
