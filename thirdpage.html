@@ -37,7 +37,10 @@
                       <a class="nav-link" href="secondpage.html">Conect</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="thirdpage.html">Tempareture</a>
+                      <a class="nav-link" href="thirdpage.html">Addition</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="qunit.html">Qunit</a>
                     </li>
                   </ul>
   
@@ -48,27 +51,54 @@
   
                 </div>
               </nav>
+
+              <h1 class="h1-responsive font-weight-bold text-center my-4">Addition Sample</h1>
+              enter the first element to be added : <input type="text" id="str" name="string" /><br />
+              enter the second element to be added : <input type="text" id="str1" name="string1" /><br />
+              <input type="button" value="GO" onclick="additontwonumbers();"/>
   
 </body>
-  <h1 class="h1-responsive font-weight-bold text-center my-4">Temparature converter</h1>
+
+  <p></p>
+  
   <h2 class="h2-responsive font-weight-bold text-center my-4">
         <section class="col-md-8">
         <script type="text/javascript">
-            function cconverttemp() {
-            
-            var result = parseInt(document.getElementById("str").value);
-            
-            
 
-            alert( "farenheat Temparature is " + (result + 30) );
+
+              function isANumber(str){
+                return !/\D/.test(str);
+              }
+
+            function additontwonumbers() {
+
+              
             
+            const result = parseInt(document.getElementById("str").value);
+            const result1 = parseInt(document.getElementById("str1").value);
+
+            const ans = "The addition of two numbers is " + (result + result1)
+            
+            if (isANumber(result) && isANumber(result1)){
+              document.getElementById("add_testing").innerHTML = ans;
+            }
+            else{
+
+              document.getElementById("add_testing").innerHTML = "please enter the only numbers"
+            }
+
             
             }
+
+            
             </script>
+            
 
             <form >
-    enter the string number to convert farenheat  : <input type="text" id="str" name="string" /><br />
-    <input type="submit" value="GO" onclick="cconverttemp();"/>
+    
+      
+    <p  id = "add_testing">
+      </p>
     </form>
     </section>
   </h2>
