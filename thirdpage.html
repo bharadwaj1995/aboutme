@@ -39,6 +39,9 @@
                     <li class="nav-item">
                       <a class="nav-link" href="thirdpage.html">Addition</a>
                     </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="qunit.html">Qunit Testing</a>
+                    </li>
                     
                   </ul>
   
@@ -75,10 +78,12 @@
             const result = parseInt(document.getElementById("str").value);
             const result1 = parseInt(document.getElementById("str1").value);
 
-            const ans = "The addition of two numbers is " + (result + result1)
-            
+
+
+
+            localStorage.setItem("ans", "The addition of two numbers is " + (result + result1));
             if (isANumber(result) && isANumber(result1)){
-              document.getElementById("add_testing").innerHTML = ans;
+              document.getElementById("add_testing").innerHTML = localStorage.getItem("ans");
             }
             else{
 
